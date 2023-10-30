@@ -2,7 +2,7 @@ import React from 'react'
 
 const upperSection = () => {
   return (
-    <div>
+    <div className='story'>
       upper
     </div>
   )

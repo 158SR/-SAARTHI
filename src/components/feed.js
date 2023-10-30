@@ -3,7 +3,10 @@ import Post from './post'
 
 const feed = () => {
   return (
-    <div>
+    <div className=''>
+      <Post />
+      <Post />
+      <Post />
       <Post />
     </div>
   )
