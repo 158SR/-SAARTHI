@@ -1,9 +1,10 @@
 import React from 'react'
+import Post from './post'
 
 const feed = () => {
   return (
     <div>
-      feed
+      <Post />
     </div>
   )
 }
