@@ -1,6 +1,6 @@
 import React from 'react'
 import Feed from './feed'
-import UpperSection from './upperSection'
+import UpperSection from './uppersection/upperSection'
 import Sidebar from './sidebar'
 
 const homePage = () => {
