@@ -1,6 +1,7 @@
 import React from 'react'
 import Feed from './feed'
 import UpperSection from './upperSection'
+import { textFieldClasses } from '@mui/material'
 // import Entertainment from './entertainment'
 
 const homePage = () => {
