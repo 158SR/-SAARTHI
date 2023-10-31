@@ -1,15 +1,24 @@
 import React from 'react'
 import Feed from './feed'
-import UpperSection from './upperSection'
-import { textFieldClasses } from '@mui/material'
-// import Entertainment from './entertainment'
+import UpperSection from './uppersection/upperSection'
+import Sidebar from './sidebar'
 
 const homePage = () => {
   return (
-    <div>
+    <div className='grid grid-cols-4 gap-4'>
+    <div class="col-span-4">
       <UpperSection/>
+    </div>
+  <div class="">
+      <Sidebar/>
+  </div>
+  <div class="col-span-2">
       <Feed/>
-      {/* <Entertainment/> */}
+  </div>
+  <div class="">
+      <Sidebar/>
+  </div>
+
     </div>
   )
 }
