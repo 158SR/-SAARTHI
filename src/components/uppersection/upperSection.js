@@ -1,5 +1,6 @@
 import React from 'react'
 import './upper.css'
+import { Telegram } from '@mui/icons-material'
 
 const upperSection = () => {
   return (
@@ -79,6 +80,12 @@ const upperSection = () => {
           </div>
         </div>
         <div>
+        </div>
+        <div class="instagramdm">
+          <div class="img-container">
+          
+          <Telegram/>
+        </div>
         </div>
       </div>
     </div>
